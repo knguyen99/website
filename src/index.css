@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Cako';
+  src: local('Cako Thin Italic'), url('./content/fonts/Cako-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cako';
+  src: local('Cako Regular'), local('Cako-Regular'), url('./content/fonts/Cako-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cako';
+  src: local('Cako Black'), local('Cako-Black'),
+      url('./content/fonts/Cako-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cako';
+  src: local('Cako Thin'), local('Cako-Thin'),
+      url('./content/fonts/Cako-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cako';
+  src: local('Cako Regular Italic'), local('Cako-RegularItalic'),
+      url('./content/fonts/Cako-RegularItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cako';
+  src: local('Cako Black Italic'), local('Cako-BlackItalic'),
+      url('./content/fonts/Cako-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}

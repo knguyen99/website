@@ -1,0 +1,62 @@
+.aboutContainer {
+}
+
+.rightCol {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    padding-top: min(5vh,100px);
+    padding-left: min(4%, 100px);
+}
+
+.title {
+    display: inline-block;
+    width: 100%;
+}
+
+.title span {
+    font-family: 'Cako';
+    font-weight: normal;
+    color: white;
+    float: left;
+    text-align: left;
+    font-size: min(16vw, 16vh);
+    margin: 0;
+    line-height: min(13vw, 13vh);
+    text-shadow: 2px 2px #ff0000;
+}
+
+.bio {
+    margin-top: 2vh;
+    float: left;
+    color: #999;
+    padding-left: min(20%, 50px);
+    position: relative;
+    font-size: min(2.5vw, 2.5vh);
+}
+
+.profilePic {
+    max-height: 80vh;
+    max-width: 45%;
+    float: right;
+    padding-right: 8%;
+}
+
+.btn {
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+    background-color: #F7DDCF;
+    border: 2px solid #F7DDCF;
+    border-radius: 15px;
+    font-size: min(2.5vw, 2.5vh);
+    padding: min(1vw,1vh);
+}
+
+.btn:hover {
+    transition: 1000ms;
+    background-color: #FFF;
+    color: #F7DDCF;
+    
+}

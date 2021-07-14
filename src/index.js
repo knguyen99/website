@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './content/fonts/Cako-Regular.ttf';
+import './content/fonts/Cako-Black.ttf';
+import './content/fonts/Cako-Thin.ttf';
+import './content/fonts/Cako-RegularItalic.ttf';
+import './content/fonts/Cako-BlackItalic.ttf';
+
 
 ReactDOM.render(
   <React.StrictMode>
