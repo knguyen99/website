@@ -1,0 +1,36 @@
+.experienceContainer{
+    padding: 5%;
+}
+
+.infoBox {
+    margin: 0 auto;
+    width: 70%;
+    max-width: 800px;
+}
+
+.jobRow {
+    display: flex;
+    justify-content: space-between;
+    color: #999;
+    margin-bottom: 2vh;
+}
+
+.leftJob{
+    text-align: left;
+}
+
+.rightJob {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    font-size: min(2vw,2vh);
+}
+
+.company {
+    font-weight: bold;
+    font-size: min(3vw, 3vh);
+}
+
+.position {
+    font-size: min(2vw,2vh);
+}

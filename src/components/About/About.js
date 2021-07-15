@@ -11,7 +11,7 @@ function About() {
                     <span> About <br />  &nbsp; Me </span>
                 </div>
                 <div className="bio">
-                    <div className="bioText">
+                    <div className="bioText shadow">
                         <div className="bioTextContainer">
                             <p>
                                 Hello! I’m Khoi Nguyen and I graduated from UCLA in June 2021 with a Bachelor’s of Science in Computer Science. I am interested in Full Stack Development and UI/UX.
@@ -22,25 +22,20 @@ function About() {
                             </p>
                         </div>
                     </div>
-                    <a className="btn resumeBtn" href={resume} target="_blank"> View Resume </a>
-                    
-
+                    <a className="btn resumeBtn shadow" href={resume} target="_blank"> View Resume </a>
                 </div>
                 <div className="subtitle">
-                        <span> Links! </span>
-                    </div>
+                    <span> Links! </span>
+                </div>
 
-                    <div className="linkRow">
-                        <a className="btn subtn" href={resume} target="_blank"> Github </a>
-                        <a className="btn subtn" href={resume} target="_blank"> LinkedIn </a>
-                    </div>
-                    <div className="linkRow">
-                        <a className="subtn btn" href={resume} target="_blank"> Instagram </a>
-                        <a className="subtn btn" href={resume} target="_blank"> Email </a>
-                    </div>
+                <div className="linkRow">
+                    <a className="btn subtn shadow" href="https://github.com/knguyen99" target="_blank"> Github </a>
+                    <a className="btn subtn shadow" href="https://www.linkedin.com/in/khoi-v-nguyen/" target="_blank"> LinkedIn </a>
+                    <a className="btn subtn shadow" href="mailto:knguyen99@g.ucla.edu" target="_blank"> Email </a>
+                </div>
             </div>
             <div className="leftCol">
-                <img className="profilePic" src={me} ></img>
+                <img className="profilePic shadow" src={me} ></img>
             </div>
         </div>
     );

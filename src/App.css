@@ -113,3 +113,7 @@ h3 {
   width: 100%;
 }
 
+.shadow {
+  box-shadow: 5px 5px 10px #ccc;  
+}
+

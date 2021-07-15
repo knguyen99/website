@@ -1,17 +1,20 @@
 .aboutContainer {
+    display: flex;
 }
 
 .rightCol {
     width: 40%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    padding-top: min(5vh,100px);
     padding-left: min(4%, 100px);
+    align-content: center;
+    vertical-align: middle;
 }
 
 .leftCol {
-    height: 100%;
+    width: 60%;
+    padding-left: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 .title {
@@ -28,7 +31,6 @@
     font-size: min(16vw, 16vh);
     margin: 0;
     line-height: min(13vw, 13vh);
-    /* text-shadow: 2px 2px #ff0000; */
 }
 
 .bio {
@@ -46,7 +48,6 @@
     border-radius: min(1vw,5px);
     max-width: 1200px;
     max-height: 500px;
-    box-shadow: 5px 5px 10px #ccc;
     margin-bottom: min(20px, 2vh);
 }
 
@@ -54,12 +55,16 @@
     margin: 0px;
 }
 
+.bioTextContainer a {
+    text-decoration: none;
+    color: #e09a73e1;
+    font-weight: bold;
+}
+
 .profilePic {
-    max-height: 80vh;
-    max-width: 45%;
-    float: right;
-    margin-right: 8%;
-    box-shadow: 5px 5px 10px #ccc;
+    width: 70%;
+    height: auto;
+    margin-right: 15%;
     border-radius: min(1vw,5px);
 }
 
@@ -73,12 +78,11 @@
     border-radius: min(1vw,5px);
     font-size: min(2vw, 2vh);
     padding: min(1vw,1vh);
-    box-shadow: 5px 5px 10px #ccc;
     text-decoration: none;
 }
 
 .resumeBtn {
-    margin-bottom: min(25px, 2vh);
+    margin-bottom: min(25px, 3vh);
 }
 
 .btn:hover {
@@ -88,20 +92,20 @@
 }
 
 .linkRow {
-    display: block;
+    display: flex;
     height: auto;
-    margin: min(20px, 10vh);
     justify-content: space-between;
+    margin-top: min(13px, 2vh);
 }
 
 .subtn {
     display: inline-block;
-    width: 10vw;
+    width: 30%;
     background-color: #fff;
     color: #f0d6c8;
     border: 2px solid #f0d6c8;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .subtn:hover {

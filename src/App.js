@@ -3,6 +3,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import React from 'react';
 import Home from './components/Home/Home';
 import About from './components/About/About';
+import Experience from './components/Experience/Experience';
 
 class App extends React.Component {
 
@@ -41,13 +42,14 @@ class App extends React.Component {
     );
 
     const anchors = ['Home', 'About', 'Experience', 'Projects'];
-
+// dark colors: [#4b5445, #465b5b, #505060, #4e5e68]
+// light colors: ["#D1E8C5", "#CAE8E3", "#E1DFFF","#D5ECFF"]
     return (
       <div className="App">
         <Menu />
         <ReactFullpage
           scrollOverflow={true}
-          sectionsColor={["#D1E8C5", "#CAE8E3", "#E1DFFF","#D5ECFF"]}
+          sectionsColor={["#4b5445", "#465b5b", "#505060", "#4e5e68"]}
           anchors={anchors}
           navigation={true}
           navigationTooltips={anchors}
@@ -63,7 +65,7 @@ class App extends React.Component {
                   <About />
                 </div>
                 <div className="section">
-                  <h3> slide 3</h3>
+                  <Experience />
                 </div>
                 <div className="section">
                   <h3>Section 4</h3>
