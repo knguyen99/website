@@ -8,7 +8,7 @@ function Home() {
     return(
         <div className="nameContainer">
             <NameSVG />
-            <p className="subtitle"> 
+            <p className="subheader"> 
                 Aspiring 
             </p>
         </div>

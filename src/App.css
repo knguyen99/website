@@ -96,7 +96,20 @@ h3 {
   border-bottom: .1vw solid white;
 }
 
-.leftCol {
-  height: 100%;
+
+.subtitle span {
+    font-family: 'Cako';
+    font-weight: normal;
+    color: white;
+    float: left;
+    text-align: left;
+    font-size: min(6vw, 6vh);
+    margin: 0;
+    line-height: min(6vw, 6vh);
+}
+
+.subtitle {
+  display: inline-block;
+  width: 100%;
 }
 
