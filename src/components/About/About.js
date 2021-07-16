@@ -8,7 +8,7 @@ function About() {
         <div className="aboutContainer">
             <div className="rightCol">
                 <div className="title">
-                    <span> About <br />  &nbsp; Me </span>
+                    <span> ABOUT <br />  &nbsp; ME </span>
                 </div>
                 <div className="bio">
                     <div className="bioText shadow">
