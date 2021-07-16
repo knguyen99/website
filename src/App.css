@@ -38,7 +38,7 @@
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Serif';
 }
 
 h3 {
@@ -114,6 +114,6 @@ h3 {
 }
 
 .shadow {
-  box-shadow: 5px 5px 10px #ccc;  
+  /* box-shadow: 5px 5px 10px #ccc;   */
 }
 
