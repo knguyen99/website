@@ -14,8 +14,17 @@ function Projects() {
         3: "Used Scikit-Image library to turn cell phone into a 4D light field camera, adding synthetic focus to a selected template.",
         4: "Used OpenGL to model a solar system, applying different types of shading to each planet. The planets are each unique shapes and the camera matrix has the ability to follow each planet."
     };
-    const [infoText, setInfoText] = useState("These are some of my favorite projects! Feel free to hover over each image to learn more.")
-    const changeText = (i) => setInfoText(projectsText[i]);
+    const projectsTitle = {
+        0: "",
+        1: "Parallax",
+        2: "Scalar",
+        3: "Post-Processed Imaging",
+        4: "Solar System Model"
+    }
+    const [infoText, setInfoText] = useState({'title': projectsTitle[0], 'text': projectsText[0]})
+    const changeText = (i) => {
+        setInfoText({'title': projectsTitle[i], 'text': projectsText[i]})
+    };
 
     return (
         <div className="projectsContainer">
@@ -24,7 +33,12 @@ function Projects() {
                     <ProjectsSVG />
                 </div>
                 <div className="infoText">
-                    &nbsp; &nbsp; {infoText}
+                    <div className="projectTitle">
+                        {infoText['title']}
+                    </div>
+                    <div className="projectDescription">
+                        &nbsp; &nbsp; {infoText['text']}
+                    </div>
                 </div>
             </div>
             <div className="projectsGrid">

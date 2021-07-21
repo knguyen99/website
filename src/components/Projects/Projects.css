@@ -37,8 +37,19 @@
 }
 
 .infoText {
+    margin-top: 2vh;
+}
+
+.projectTitle {
+    color: #c18372;
+    font-family: "Cako";
+    font-size: min(3vw, 3vh);
+    text-align: left;
+    padding-bottom: 1vh;
+}
+
+.projectDescription {
     color: #ccc;
     text-align: left;
-    margin-top: 2vh;
-    font-size: min(3vw, 3vh);
+    font-size: min(2.5vw, 2.5vh);
 }
