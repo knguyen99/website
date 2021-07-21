@@ -1,17 +1,29 @@
 .experienceContainer{
-    padding: 5%;
+    padding: 0% 6%;
 }
 
+.sub {
+    width: 55vmin;
+    max-width: 400px;
+    height: auto;
+}
+
+.sub2 {
+    width: 30vmin;
+    max-width: 200px;
+    height: auto;
+}
 .infoBox {
     margin: 0 auto;
-    width: 70%;
-    max-width: 800px;
+    margin-top: .5vh;
+    width: 90%;
+    max-width: 1000px;
 }
 
 .jobRow {
     display: flex;
     justify-content: space-between;
-    color: #999;
+    color: #FFF;
     margin-bottom: 2vh;
 }
 
@@ -26,11 +38,43 @@
     font-size: min(2vw,2vh);
 }
 
-.company {
-    font-weight: bold;
+.company, .skillType {
+    /* font-weight: bold; */
     font-size: min(3vw, 3vh);
+    font-family: 'Cako';
 }
 
-.position {
+.company a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.company a:hover{
+    transition: 1000ms;
+    color: #c18372;
+}
+
+.position, .skillList {
     font-size: min(2vw,2vh);
 }
+
+.skillRow {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    fill: #FFF;
+    width: 100%;
+}
+
+.skillBox {
+    border: 1px solid #c18372;
+    border-radius: min(1vw,5px);
+    width: 27%;
+    padding-top: 1%;
+}
+
+.skillBox li, ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+

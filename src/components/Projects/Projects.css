@@ -1,0 +1,44 @@
+.projectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6vh 6vw;
+}
+
+.projectSide {
+    width: 40%;
+    margin-right: 2%
+}
+
+.title2 {
+    max-width: 350px;
+    min-width:100px;
+}
+
+.projectsGrid {
+    width: 58%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projectPic {
+    object-fit: cover;
+    width: 15vmax;
+    height: 15vmax;
+    margin: 2vmin;
+    border-radius: 3px 3px;
+    border: 2px solid transparent;
+}
+
+.projectPic:hover {
+    border-color: #fff;
+    transition: 1000ms;
+}
+
+.infoText {
+    color: #ccc;
+    text-align: left;
+    margin-top: 2vh;
+    font-size: min(3vw, 3vh);
+}

@@ -1,54 +1,50 @@
 .aboutContainer {
     display: flex;
-}
-
-.rightCol {
-    width: 40%;
-    padding-left: min(4%, 100px);
-    align-content: center;
-    vertical-align: middle;
+    flex-wrap: wrap;
+    padding: 6% 10%;
 }
 
 .leftCol {
-    width: 60%;
-    padding-left: 6%;
+    /* width: 50%; */
+    padding-left: min(4%, 100px);
+    align-content: center;
+    vertical-align: middle;
+    margin-right: 60px;
+}
+
+.rightCol {
+    /* width: 50%; */
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 900px;
+    
   }
 
 .title {
-    display: inline-block;
-    width: 100%;
+    display: block;
+    width: 60vmin;
+    max-width: 500px;
 }
 
-.title span {
-    font-family: 'Cako';
-    font-weight: normal;
-    color: white;
-    float: left;
-    text-align: left;
-    font-size: min(16vw, 16vh);
-    margin: 0;
-    line-height: min(13vw, 13vh);
-}
 
 .bio {
     margin-top: 2vh;
     float: left;
     color: #CCC;
-    padding-left: min(20%, 50px);
     position: relative;
-    font-size: min(2vw, 2vh);
+    font-size: min(2.5vw, 2.5vh, 26px);
+    border: 2px solid #fff;
+    border-radius: min(1vw,5px);  
 }
 
 .bioText {
-    /* background-color: #fff; */
-    padding: min(20px, 3%);
+    padding: min(60px, 6%);
     border-radius: min(1vw,5px);
-    max-width: 1200px;
-    max-height: 500px;
     margin-bottom: min(20px, 2vh);
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 0;
 }
 
 .bioTextContainer {
@@ -57,7 +53,7 @@
 
 .bioTextContainer a {
     text-decoration: none;
-    color: #e09a73e1;
+    color: #f3e5b6;
     font-weight: bold;
 }
 
@@ -69,47 +65,49 @@
 }
 
 .btn {
-    display: block;
-    margin: 0 auto;
+    /* display: block;
+    margin: 0 auto; */
     color: #fff;
-    background-color: #e09a73e1;
-    border: 2px solid #e09a73e1;
+    background-color: #c18372;
+    border: 2px solid #c18372;
     font-weight: bold;
     border-radius: min(1vw,5px);
-    font-size: min(2vw, 2vh);
-    padding: min(1vw,1vh);
+    font-size: 14px;
+    line-height: 14px;
+    padding: min(.5vw,.5vh);
     text-decoration: none;
+
 }
 
 .resumeBtn {
-    margin-bottom: min(25px, 3vh);
+    text-align: center;
 }
 
 .btn:hover {
     transition: 1000ms;
     background-color: #FFF;
-    color: #e09a73e1;
+    color: #c18372;
 }
 
 .linkRow {
     display: flex;
-    height: auto;
+    height: 25px;
     justify-content: space-between;
-    margin-top: min(13px, 2vh);
+    margin-top: min(17px, 2.5vh);
+}
+
+.icn {
+    width: 25px;
+    height: 25px;
 }
 
 .subtn {
-    display: inline-block;
-    width: 30%;
-    background-color: #fff;
-    color: #e09a73e1;
-    border: 2px solid #e09a73e1;
-    margin-left: 3%;
-    margin-right: 3%;
+    fill: #fff;
 }
 
 .subtn:hover {
     transition: 1000ms;
-    color: #FFF;
-    background-color: #e09a73e1;    
+    fill: #c18372;    
 }
+
+

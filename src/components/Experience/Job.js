@@ -5,7 +5,7 @@ function Job(props) {
         <div className="jobRow">
             <div className="leftJob"> 
                 <div className="company">
-                    {props.company}
+                    <a href={props.link} target="_blank"> {props.company}</a>
                 </div>
                 <div className="position">
                     {props.position}

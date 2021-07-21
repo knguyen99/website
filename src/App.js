@@ -4,6 +4,7 @@ import React from 'react';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Experience from './components/Experience/Experience';
+import Projects from './components/Projects/Projects';
 
 class App extends React.Component {
 
@@ -68,10 +69,7 @@ class App extends React.Component {
                   <Experience />
                 </div>
                 <div className="section">
-                  <h3>Section 4</h3>
-                  <button onClick={() => fullpageApi.moveTo(1, 0)}>
-                    Move top
-                  </button>
+                  <Projects />
                 </div>
               </div>
             );

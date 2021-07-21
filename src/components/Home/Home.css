@@ -1,4 +1,4 @@
-.nameContainer {
+.name {
     width: min(100vh, 75%);
     max-width: 800px;
     position: absolute;
@@ -7,15 +7,11 @@
     padding-bottom: min(13vh, 90px);
 }
 
-.subheader {
-    position: absolute
-}
-
-.typewriter:after {
-    content: "|";
-    -webkit-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-    font-weight: lighter;
-    color: #fff;
+.me {
+    z-index: -100;
+    bottom: 0;
+    padding-bottom: min(13vh, 90px);
+    float: right;
+    /* width: min(75) */
 }
 
