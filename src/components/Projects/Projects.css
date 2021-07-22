@@ -3,7 +3,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 6vh 6vw;
+    padding-top: 2vh;
+    padding-left: 6vw;
+    padding-right: 6vw;
 }
 
 .projectSide {
@@ -20,12 +22,13 @@
     width: 58%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .projectPic {
     object-fit: cover;
-    width: 15vmax;
-    height: 15vmax;
+    width: 20vw;
+    height: 20vw;
     margin: 2vmin;
     border-radius: 3px 3px;
     border: 2px solid transparent;
@@ -52,4 +55,43 @@
     color: #ccc;
     text-align: left;
     font-size: min(2.5vw, 2.5vh);
+}
+
+/* notes for image sizing 
+    ratio for 1 col: 500/931 to 
+*/
+
+@media only screen and (min-aspect-ratio: 11/9){
+    .projectPic{
+        width: 20vw;
+        height: 20vw;
+    }
+}
+
+@media only screen and (min-aspect-ratio: 19/9){
+    .projectPic{
+        width: 10vw;
+        height: 10vw;
+    }
+}
+
+@media only screen and (min-aspect-ratio: 3/1){
+    .projectPic{
+        width: 10vw;
+        height: 10vw;
+        margin: 3vmin;
+    }
+    .projectDescription{
+        font-size: .8vw;
+    }
+    .projectTitle{
+        font-size: 1vw;
+    }
+}
+
+@media only screen and (max-aspect-ratio: 7/10){
+    .projectPic{
+        width: 19vh;
+        height: 19vh;
+    }
 }
