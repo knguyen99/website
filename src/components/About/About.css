@@ -72,10 +72,11 @@
     border: 2px solid #c18372;
     font-weight: bold;
     border-radius: min(1vw,5px);
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 13px;
+    /* line-height: 14px; */
     padding: min(.5vw,.5vh);
     text-decoration: none;
+    min-height: 14px;
 
 }
 
