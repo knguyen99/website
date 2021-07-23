@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1a9aedbc.chunk.css",
+    "main.js": "/static/js/main.995f4d3c.chunk.js",
+    "main.js.map": "/static/js/main.995f4d3c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.87f634ac.js",
+    "runtime-main.js.map": "/static/js/runtime-main.87f634ac.js.map",
+    "static/js/2.cc453a0d.chunk.js": "/static/js/2.cc453a0d.chunk.js",
+    "static/js/2.cc453a0d.chunk.js.map": "/static/js/2.cc453a0d.chunk.js.map",
+    "static/js/3.cee4dfaa.chunk.js": "/static/js/3.cee4dfaa.chunk.js",
+    "static/js/3.cee4dfaa.chunk.js.map": "/static/js/3.cee4dfaa.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1a9aedbc.chunk.css.map": "/static/css/main.1a9aedbc.chunk.css.map",
+    "static/js/2.cc453a0d.chunk.js.LICENSE.txt": "/static/js/2.cc453a0d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Cako-ThinItalic.058e02c3.ttf",
+    "static/media/Resume.ecafdb8d.pdf": "/static/media/Resume.ecafdb8d.pdf",
+    "static/media/about.5b2104cb.svg": "/static/media/about.5b2104cb.svg",
+    "static/media/email.73096247.svg": "/static/media/email.73096247.svg",
+    "static/media/experience.5b5939bd.svg": "/static/media/experience.5b5939bd.svg",
+    "static/media/github.4518a790.svg": "/static/media/github.4518a790.svg",
+    "static/media/linkedin.3ab0008f.svg": "/static/media/linkedin.3ab0008f.svg",
+    "static/media/me.ef7f0f13.jpg": "/static/media/me.ef7f0f13.jpg",
+    "static/media/name.687def9c.svg": "/static/media/name.687def9c.svg",
+    "static/media/portfolio-1.0e9d7da6.gif": "/static/media/portfolio-1.0e9d7da6.gif",
+    "static/media/portfolio-2.d41e5c07.png": "/static/media/portfolio-2.d41e5c07.png",
+    "static/media/portfolio-3.c32ad6aa.png": "/static/media/portfolio-3.c32ad6aa.png",
+    "static/media/portfolio-4.05f8fbf9.gif": "/static/media/portfolio-4.05f8fbf9.gif",
+    "static/media/projects.76d5c5c5.svg": "/static/media/projects.76d5c5c5.svg",
+    "static/media/skills.41913fbc.svg": "/static/media/skills.41913fbc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87f634ac.js",
+    "static/js/2.cc453a0d.chunk.js",
+    "static/css/main.1a9aedbc.chunk.css",
+    "static/js/main.995f4d3c.chunk.js"
+  ]
+}
