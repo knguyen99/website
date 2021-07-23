@@ -1,4 +1,4 @@
-## This is my personal website! Check it out at:
+## This is my dev repo for my personal website! Check it out at:
 
 http://knguyen99.github.io
 
